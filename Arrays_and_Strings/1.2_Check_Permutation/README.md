@@ -12,5 +12,7 @@ One of the key ideas to notice here is that if two strings are permutations of e
 
 Hence, having two arrays which stores the character frequencies of each of these strings and checking them for equality would lead to a better solution in terms of runtime i.e., O(n).
 
-*Can we do better* in terms of memory?
+## Optimization Check
+- [x] O(n) time complexity.
+- [x] O(1) space complexity.
 
