@@ -13,4 +13,6 @@ As we already saw, the BCR for the problem is O(n) and this cannot be further op
 
 However, we are using an extra data structure here to store the count of the characters.
 
-*Can we do better*?
+## Optimization Check
+- [x] O(n) time complexity.
+- [x] O(1) space complexity.
