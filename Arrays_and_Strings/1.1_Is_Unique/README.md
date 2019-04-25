@@ -15,4 +15,4 @@ However, we are using an extra data structure here to store the count of the cha
 
 ## Optimization Check
 - [x] O(n) time complexity.
-- [x] O(1) space complexity.
+- [x] O(1) auxiliary space.

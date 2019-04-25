@@ -13,4 +13,4 @@ We instead should use a character array with predetermined size, then we can rep
 
 ## Optimization Check
 - [x] O(n) time complexity.
-- [x] O(n) space complexity.
+- [x] O(n) auxiliary space.

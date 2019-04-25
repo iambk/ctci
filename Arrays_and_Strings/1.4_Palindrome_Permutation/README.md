@@ -25,4 +25,4 @@ This is why they would have an even number of character frequencies unless the l
 
 ## Optimization Check
 - [x] O(n) time complexity
-- [x] O(1) space complexity
+- [x] O(1) auxiliary space

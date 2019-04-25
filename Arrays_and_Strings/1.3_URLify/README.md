@@ -21,4 +21,4 @@ Since, we have the true length of the string given, we can have two pointers one
 
 ## Optimization check
 - [x] O(n) time complexity.
-- [x] O(1) space complexity.  
+- [x] O(1) auxiliary space.  

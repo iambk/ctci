@@ -14,4 +14,4 @@ We would have to rotate the matrix layer by layer starting from the outer indice
 
 ## Optimization Check
 - [x] O(n^2) time complexity.
-- [x] O(1) space complexity.
+- [x] O(1) auxiliary space.

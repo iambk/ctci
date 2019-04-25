@@ -18,4 +18,4 @@ Now, we can have two pointer starting at the beginning of each string comparing 
 
 ## Optimization Check
 - [x] O(n) time complexity.
--	[x] O(1) space complexity.
+-	[x] O(1) auxiliary space.

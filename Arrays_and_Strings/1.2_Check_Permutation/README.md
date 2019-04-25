@@ -14,5 +14,5 @@ Hence, having two arrays which stores the character frequencies of each of these
 
 ## Optimization Check
 - [x] O(n) time complexity.
-- [x] O(1) space complexity.
+- [x] O(1) auxiliary space.
 
