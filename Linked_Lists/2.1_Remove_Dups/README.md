@@ -15,8 +15,8 @@ Without being able to use extra storage, we would require two loops to remove du
 ## Optimization check
 
 With extra storage
-- [x] O(n) time complexity.
-- [x] O(n) auxiliary space.
+- [ ] O(n) time complexity.
+- [ ] O(n) auxiliary space.
 
 Without extra storage
 - [x] O(n^2) time complexity.
