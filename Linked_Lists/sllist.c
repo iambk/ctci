@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 void insertbeg(struct node **ref, int data) {
-	struct node *new = mallco(sizeof *new);
+	struct node *new = malloc(sizeof *new);
 	new->data = data;
 	new->next = (*ref);
 
