@@ -59,7 +59,9 @@ int main() {
 	struct node *l3 = NULL;
 
 	int carry = sumLists(l1, l2, &l3);
-	insertbeg(&l3, carry);
+	if (carry > 0) {
+		insertbeg(&l3, carry);
+	}
 
 	printf("\nSum is: ");
 	display(l3);
