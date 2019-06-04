@@ -6,6 +6,7 @@ struct node {
 	struct node *next;
 };
 
+void insertbeg(struct node **ref, int data);
 void append(struct node **ref, int data);
 void display(struct node *ref);
 

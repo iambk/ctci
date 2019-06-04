@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+void insertbeg(struct node **ref, int data) {
+	struct node *new = mallco(sizeof *new);
+	new->data = data;
+	new->next = (*ref);
+
+	(*ref) = new;
+}
+
 void append(struct node **ref, int data) {
 	struct node *new = malloc(sizeof *new);
 	new->data = data;
