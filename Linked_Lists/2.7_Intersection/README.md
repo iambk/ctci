@@ -4,7 +4,7 @@ Given two (singly) linked lists, determine if the two lists intersect. Return th
 ## Optimal Approach
 The first step is to determine whether the linked lists are actually intersecting or not. And how do we do that? If at all the lists are intersecting their last nodes will be the same(no points for guessing that).
 
-Now from here the problem can be approached both iteratively and recursively. But both would require lists of equivalent length. So, we need to chop off the initial elements, and then check for either the first equivalent node by reference from beginning(iterative) or the last non-equivalent node by reference(recursive) both taking equivalent time complexities. However, the recursive method would use extra space for function call stack.
+Now from here the problem can be approached both iteratively and recursively. But both would require lists of equivalent length. So, we need to chop off the initial elements, and then check for either the first equivalent node by reference from beginning(iterative) or the last non-equivalent node by reference(recursive) both taking similar time complexities. However, the recursive method would use extra space for function call stack.
 
 ## Optimization check
 - [x] O(n + m) time complexity.
