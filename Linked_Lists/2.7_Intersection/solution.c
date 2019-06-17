@@ -1,6 +1,7 @@
 /* 
 	 This implementation is based on data comparison.
-	 But this program would work otherwise also. Just make an actually intersecting linked list(which I was too lazy to do ¯\_(ツ)_/¯) and change the condition checking from data to reference.
+	 But this program would work otherwise also.
+	 Just make an actually intersecting linked list(which I was too lazy to do ¯\_(ツ)_/¯) and change the condition checking from data to reference.
 
 */
 
