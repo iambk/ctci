@@ -1,5 +1,5 @@
 # Is Unique
-Implement an algorithm to determine if a string has all unique characters. What if you cannot use additoinal data structures?
+Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
 ## Approach
 The BCR(Best Conceivable Runtime) for the problem should be O(n), since we need to touch each character in the string at least once.
