@@ -1,5 +1,5 @@
 # URLify
-Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficiient space at the end to hold the additional characters, and that you are given the "true" length of the string.
+Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold the additional characters, and that you are given the "true" length of the string.
 
 > Example
 
@@ -21,4 +21,4 @@ Since, we have the true length of the string given, we can have two pointers one
 
 ## Optimization check
 - [x] O(n) time complexity.
-- [x] O(1) auxiliary space.  
+- [x] O(1) auxiliary space.
