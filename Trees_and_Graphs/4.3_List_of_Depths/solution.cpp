@@ -20,7 +20,7 @@ struct node {
 
 struct node *newnode(int d);
 void init(struct node **root);
-void dfslist(std::vector<std::list<struct node *>>& dlist, struct node *root);
+void dfslist(std::vector<std::list<struct node *>>& dlist, struct node *root, int level);
 void bfslist(std::vector<std::list<struct node *>>& dlist, struct node *root);
 
 int main() {
@@ -28,7 +28,7 @@ int main() {
 	init(&root);
 
 	std::vector<std::list<struct node *>> dlist;
-	dfslist(dlist, root);
+	dfslist(dlist, root, 0);
 
 	bfslist(dlist, root);
 
@@ -68,14 +68,16 @@ void init(struct node **root) {
 	(*root)->right->right->right = newnode(15);
 }
 
-void dfslist(std::vector<std::list<struct node *>>& dlist, struct node *root) {
-	while (root != NULL) {
+void dfslist(std::vector<std::list<struct node *>>& dlist, struct node *root, int level) {
+	if (root == NULL) return;
+
+	if (dlist.size() == level) {
 		std::list<struct node *> l;
 		l.push_front(root);
 		dlist.push_back(l);
-		if(root->left) root = root->left;
-		else root = root->right;
 	}
+	dfslist(dlist, root->left, level + 1);
+	dfslist(dlist, root->right, level + 1);
 }
 
 void bfslist(std::vector<std::list<struct node *>>& dlist, struct node *root) {
